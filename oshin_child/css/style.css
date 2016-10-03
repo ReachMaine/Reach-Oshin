@@ -18,3 +18,16 @@ i.fa-pull-right {
   padding-left: 5px; }
 
 /* ----------- end typography ----------- */
+/*  header stuff - here */
+.sb-slidebar {
+  height: initial;
+  max-width: 280px; }
+  .sb-slidebar .overlay-menu-close {
+    color: #232323; }
+  .sb-slidebar .display-table {
+    max-height: 400px; }
+    .sb-slidebar .display-table #sb-slidebar-content {
+      vertical-align: top; }
+
+#header-controls-right .sliderbar-nav-controller-wrap .menu-controls {
+  border-radius: 2px; }

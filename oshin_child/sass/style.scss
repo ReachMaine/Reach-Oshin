@@ -9,3 +9,28 @@ Version: 1.2
 @import url("../oshin/style.css");
 @import "partials/colors";
 @import "partials/typography";
+
+/*  header stuff - here */
+.sb-slidebar { // the sidebar sliding bar for mobil menu
+	height: initial;
+	max-width: 280px;
+	.overlay-menu-close  {
+		//background-color: rgba(255,255,255,0.8);
+		color: $menu-font;
+	}
+	.display-table {
+		max-height: 400px;
+		#sb-slidebar-content {
+			vertical-align: top;
+		}
+	}
+}
+
+#header-controls-right { 
+	.sliderbar-nav-controller-wrap {
+		.menu-controls {
+			border-radius: 2px;
+		}
+	}
+}
+
