@@ -34,14 +34,30 @@ i.fa-pull-right {
 #header-controls-right .sliderbar-nav-controller-wrap .menu-controls {
   border-radius: 2px; }
 
+/*** styling of content */
+.left-sidebar-page,
+.right-sidebar-page,
+.no-sidebar-page .be-section-pad:first-child,
+.page-template-page-940-php #content,
+.no-sidebar-page #content-wrap,
+.portfolio-archives.no-sidebar-page #content-wrap {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+/** footer **/
+#reach-bottom-cta {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
 /* *** keep this at the end *** */
 /* **** media **** */
 @media only screen and (max-width: 767px) {
-  #sb-slidebar-content #slidebar-menu .mobile-sub-menu-controller {
-    font-size: 22px; }
-  #sb-slidebar-content .reach-phone-cols .textwidget .one-third {
+  .reach-phone-cols .textwidget .one-third {
     width: 30%;
     float: left; }
+
+  #sb-slidebar-content #slidebar-menu .mobile-sub-menu-controller {
+    font-size: 22px; }
 
   #main-wrapper #header .logo {
     padding-top: 5px; }
@@ -52,4 +68,6 @@ i.fa-pull-right {
   #main-wrapper #hero-section {
     top: 120px; }
   #main-wrapper #content {
-    padding-top: 120px; } }
+    padding-top: 120px; }
+    #main-wrapper #content .be-text-inner {
+      width: 92% !important; } }

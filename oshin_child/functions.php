@@ -12,5 +12,17 @@
 // add_shortcode('video','wp_video_shortcode');      
 // }
 // add_action( 'init', 'be_restore_default_gallery');
+    
+    register_sidebar(
+		array(
+           'name' => __( 'Bottom Call to Action ', 'be-themes' ),
+           'id'   => 'reach-bottom-cta',
+           'description'   => __( 'Widget area (above footer)', 'be-themes' ),
+           'before_widget' => '<div class="%2$s widget">', 
+           'after_widget'  => '</div>',
+           'before_title'  => '<h6>',
+           'after_title'   => '</h6>',
+		)
+	);
 
 ?>
