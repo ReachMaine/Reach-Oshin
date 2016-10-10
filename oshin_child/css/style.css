@@ -49,6 +49,13 @@ i.fa-pull-right {
   margin-top: 40px;
   margin-bottom: 40px; }
 
+h1.reach-logo {
+  color: #0088c7; }
+
+.reach-logo:before {
+  content: url(images/reach-favicon.png);
+  padding-right: 3px; }
+
 /* *** keep this at the end *** */
 /* **** media **** */
 @media only screen and (max-width: 767px) {
