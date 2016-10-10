@@ -10,7 +10,9 @@ Version: 1.2
 @import "partials/colors";
 @import "partials/typography";
 
-/*  header stuff - here */
+
+
+/*** slidebar in oshine slidebar is above main content *** */
 .sb-slidebar { // the sidebar sliding bar for mobil menu
 	height: initial;
 	max-width: 280px;
@@ -22,10 +24,11 @@ Version: 1.2
 		max-height: 400px;
 		#sb-slidebar-content {
 			vertical-align: top;
+			border: 1px solid #dddedf;
 		}
 	}
 }
-
+/*  header stuff - here */
 #header-controls-right { 
 	.sliderbar-nav-controller-wrap {
 		.menu-controls {
@@ -34,3 +37,5 @@ Version: 1.2
 	}
 }
 
+/* *** keep this at the end *** */
+@import "partials/media";

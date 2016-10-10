@@ -18,7 +18,7 @@ i.fa-pull-right {
   padding-left: 5px; }
 
 /* ----------- end typography ----------- */
-/*  header stuff - here */
+/*** slidebar in oshine slidebar is above main content *** */
 .sb-slidebar {
   height: initial;
   max-width: 280px; }
@@ -27,7 +27,29 @@ i.fa-pull-right {
   .sb-slidebar .display-table {
     max-height: 400px; }
     .sb-slidebar .display-table #sb-slidebar-content {
-      vertical-align: top; }
+      vertical-align: top;
+      border: 1px solid #dddedf; }
 
+/*  header stuff - here */
 #header-controls-right .sliderbar-nav-controller-wrap .menu-controls {
   border-radius: 2px; }
+
+/* *** keep this at the end *** */
+/* **** media **** */
+@media only screen and (max-width: 767px) {
+  #sb-slidebar-content #slidebar-menu .mobile-sub-menu-controller {
+    font-size: 22px; }
+  #sb-slidebar-content .reach-phone-cols .textwidget .one-third {
+    width: 30%;
+    float: left; }
+
+  #main-wrapper #header .logo {
+    padding-top: 5px; }
+  #main-wrapper #header #header-controls-right {
+    line-height: 120px; }
+  #main-wrapper #main {
+    background-color: #ffa73d; }
+  #main-wrapper #hero-section {
+    top: 120px; }
+  #main-wrapper #content {
+    padding-top: 120px; } }
