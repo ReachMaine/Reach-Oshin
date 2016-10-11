@@ -1,6 +1,17 @@
 /* **** media **** */
+@media only screen and (max-width: 960px) {
+}
+@media only screen and (min-width: 768px) {
+	// anything bigger than tablet (i.e. desktop)
+	h1.reach-logo:before,
+	h1 span.reach-logo {
+		content: url(images/reach-scale.png);
+	}
+}
 
+/***  tablet ***/
 @media only screen and (max-width: 767px) {
+	$mobile-header-height: 80px;
 	.reach-phone-cols { // dont make social icons rows 100% at here
 		.textwidget {
 			.one-third {
@@ -9,6 +20,7 @@
 			}
 		}
 	}
+	// the hamberger icon & nav menu
 	#sb-slidebar-content {
 		#slidebar-menu {
 			.mobile-sub-menu-controller {
@@ -20,23 +32,33 @@
 	#main-wrapper {
 		#header {
 			.logo {
-				padding-top: 5px;
+				padding-top: 8px;
+				img {
+					width: 60px;
+				}
 			}
 			#header-controls-right {
-				line-height: 120px;
+				line-height: $mobile-header-height;
 			}
 		}
 		#main {
-			background-color: $reach-orange;
+			background-color: $reach-pale-blue;
 		}
 		#hero-section {
-			top: 120px;
+			top: $mobile-header-height; // make some space
 		}
 		#content {
-			padding-top: 120px;
+			padding-top: $mobile-header-height; // and push content down
 			.be-text-inner {
 				width: 92%!important;
 			}
 		}
 	}
+}
+@media only screen and (max-width: 320px){
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   
 }

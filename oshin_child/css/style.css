@@ -58,6 +58,11 @@ h1.reach-logo {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (min-width: 768px) {
+  h1.reach-logo:before,
+  h1 span.reach-logo {
+    content: url(images/reach-scale.png); } }
+/***  tablet ***/
 @media only screen and (max-width: 767px) {
   .reach-phone-cols .textwidget .one-third {
     width: 30%;
@@ -67,14 +72,16 @@ h1.reach-logo {
     font-size: 22px; }
 
   #main-wrapper #header .logo {
-    padding-top: 5px; }
+    padding-top: 8px; }
+    #main-wrapper #header .logo img {
+      width: 60px; }
   #main-wrapper #header #header-controls-right {
-    line-height: 120px; }
+    line-height: 80px; }
   #main-wrapper #main {
-    background-color: #ffa73d; }
+    background-color: #ebf0f3; }
   #main-wrapper #hero-section {
-    top: 120px; }
+    top: 80px; }
   #main-wrapper #content {
-    padding-top: 120px; }
+    padding-top: 80px; }
     #main-wrapper #content .be-text-inner {
       width: 92% !important; } }
