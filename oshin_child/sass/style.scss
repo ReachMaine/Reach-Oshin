@@ -29,7 +29,7 @@ Version: 1.2
 	}
 }
 /*  header stuff - here */
-#header-controls-right { 
+#header-controls-right {
 	.sliderbar-nav-controller-wrap {
 		.menu-controls {
 			border-radius: 2px;
@@ -37,14 +37,18 @@ Version: 1.2
 	}
 }
 /*** styling of content */
-.left-sidebar-page, 
-.right-sidebar-page, 
-.no-sidebar-page .be-section-pad:first-child, 
-.page-template-page-940-php #content, 
-.no-sidebar-page #content-wrap, 
+.left-sidebar-page,
+.right-sidebar-page,
+.no-sidebar-page .be-section-pad:first-child,
+.page-template-page-940-php #content,
+.no-sidebar-page #content-wrap,
 .portfolio-archives.no-sidebar-page #content-wrap {
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.thumb-title-wrap { //Adds padding to client name borders in grid
+	padding: 10px;
 }
 
 /** footer **/
