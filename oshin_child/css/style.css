@@ -86,7 +86,7 @@ h1.reach-logo {
     line-height: 58px; } }
 @media only screen and (min-width: 768px) {
   h1.reach-logo:before,
-  h1 span.reach-logo {
+  h1 span.reach-logo:before {
     content: url(images/reach-scale.png); } }
 /***  tablet ***/
 @media only screen and (max-width: 768px) {

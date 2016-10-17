@@ -10,7 +10,7 @@
 @media only screen and (min-width: 768px) {
 	// anything bigger than tablet (i.e. desktop)
 	h1.reach-logo:before,
-	h1 span.reach-logo {
+	h1 span.reach-logo:before {
 		content: url(images/reach-scale.png);
 	}
 }
