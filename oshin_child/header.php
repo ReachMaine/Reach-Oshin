@@ -7,7 +7,7 @@
 <!--[if gt IE 8]><!--> 
 <?php /* mods 
 * 17Oct16 zig - add GTM function call
-*/
+*/?>
 <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">

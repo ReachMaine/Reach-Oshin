@@ -34,6 +34,10 @@ i.fa-pull-right {
 #header-controls-right .sliderbar-nav-controller-wrap .menu-controls {
   border-radius: 2px; }
 
+.default-hero-section {
+  height: 150px;
+  background-color: #dce4ef; }
+
 /*** styling of content */
 .left-sidebar-page,
 .right-sidebar-page,

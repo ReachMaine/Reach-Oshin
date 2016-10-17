@@ -14,6 +14,7 @@
 // add_action( 'init', 'be_restore_default_gallery');
     
   require_once(get_stylesheet_directory().'/custom/branding.php'); 
+  //require_once(get_stylesheet_directory().'/custom/oshine.php'); 
 
     register_sidebar(
 		array(
@@ -22,7 +23,7 @@
            'description'   => __( 'Widget area (above footer)', 'be-themes' ),
            'before_widget' => '<div class="%2$s widget">', 
            'after_widget'  => '</div>',
-           'before_title'  => '<h6>',
+           'before_title'  => '<h6>',//
            'after_title'   => '</h6>',
 		)
 	);
