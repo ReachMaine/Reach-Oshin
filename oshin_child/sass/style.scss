@@ -59,7 +59,7 @@ h2.page-title {
 	padding: 10px;
 }
 .reach-column-border {
-	//border: 1px solid $grey-video-border; // frigs up columns 
+	//border: 1px solid $grey-video-border; // frigs up columns
 }
 .fluid-width-video-wrapper {
 	padding-top: 56%!important; // increase depth of videos
@@ -76,6 +76,13 @@ h2.page-title {
 		text-align: center;
 	}
 }
+
+img.reach-team-member {
+	border-radius: 50%;
+	border: 3px solid #c6daef;
+}
+
+
 // masonary recent posts.  [reach_recent_posts]
 #ms-container {
 	column-count: 3;
