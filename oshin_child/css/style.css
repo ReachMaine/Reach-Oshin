@@ -65,6 +65,21 @@ h2.page-title {
 .post-navigation .aligncenter {
   text-align: center; }
 
+#ms-container {
+  column-count: 3;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-gap: 1em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em; }
+  #ms-container .ms-item {
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+    background-color: #eee; }
+    #ms-container .ms-item .article-details {
+      padding: 1em; }
+
 /** footer **/
 #reach-bottom-cta {
   margin-top: 40px;
@@ -110,4 +125,14 @@ h1.reach-logo {
   #main-wrapper #content {
     padding-top: 80px; }
     #main-wrapper #content .be-text-inner {
-      width: 92% !important; } }
+      width: 92% !important; }
+
+  #ms-container {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2; } }
+@media only screen and (max-width: 480px) {
+  #ms-container {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1; } }

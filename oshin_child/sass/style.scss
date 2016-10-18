@@ -76,6 +76,25 @@ h2.page-title {
 		text-align: center;
 	}
 }
+// masonary recent posts.  [reach_recent_posts]
+#ms-container {
+	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	column-gap: 1em;
+	-moz-column-gap: 1em;
+	-webkit-column-gap: 1em;
+	.ms-item {
+		display: inline-block;
+		margin: 0 0 1em;
+		width: 100%;
+		background-color: #eee;
+		.article-details {
+			padding: 1em;
+		}
+	}
+}
+
 
 /** footer **/
 // reach-bottom-cta

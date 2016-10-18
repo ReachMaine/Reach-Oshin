@@ -27,8 +27,7 @@ if( !empty( $url )  ) {
 ?>
 <div class="post-thumb">	
 	<div class="">        	
-		<a href="<?php echo esc_url( $link ) ?>" class="<?php echo $class; ?> thumb-wrap">
-			<?php the_post_thumbnail( $blog_image_size ); ?>
+		<a href="<?php echo esc_url( $link ) ?>" class="<?php echo $class; ?> thumb-wrap"><?php the_post_thumbnail( $blog_image_size ); ?>
 			<div class="thumb-overlay">
 				<div class="thumb-bg">
 					<div class="thumb-title fadeIn animated">
