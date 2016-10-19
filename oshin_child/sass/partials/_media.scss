@@ -13,6 +13,14 @@
 	h1 span.reach-logo:before {
 		content: url(images/reach-scale.png);
 	}
+
+}
+
+@media only screen and (min-width: 769px) {
+	span.ea-compact {
+		margin-left: -4px;
+		margin-right: -2px;
+	}
 }
 
 /***  tablet ***/
@@ -20,8 +28,8 @@
 	$mobile-header-height: 80px;
 	.reach-phone-cols { // dont make social icons rows 100% at here
 		.textwidget {
-			.one-third {
-				width: 30%;
+			.one-fourth {
+				width: 23%;
 				float: left;
 			}
 		}
@@ -65,6 +73,11 @@
 		-webkit-column-count: 2;
 		column-count: 2;
 	}
+
+	span.ea-compact {
+		margin-left: -2px;
+	}
+
 }
 @media only screen and (max-width: 480px){
 	#ms-container {
@@ -72,6 +85,15 @@
 		-webkit-column-count: 1;
 		column-count: 1;
 	}
+
+	div#reach-bottom-cta-wrap .be-wrap, .be-wrap {
+		max-width: 320px !important;
+	}
+
+	div#reach-bottom-cta-wrap h1 {
+		font-size: 27px;
+	}
+
 }
 @media only screen and (max-width: 320px){
 
