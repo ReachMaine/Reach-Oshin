@@ -1,3 +1,4 @@
+@import url("../oshin/style.css");
 /*
 Theme Name: Reach
 Description: Oshin Child Theme for Reach Maine
@@ -5,7 +6,6 @@ Author: Reach Maine
 Template: oshin
 Version: 1.2
 */
-@import url("../oshin/style.css");
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* ----------- Typography ------------------------------- */
@@ -31,12 +31,19 @@ i.fa-pull-right {
       border: 1px solid #dddedf; }
 
 /*  header stuff - here */
+#header {
+  height: 0px !important; }
+
 #header-controls-right .sliderbar-nav-controller-wrap .menu-controls {
   border-radius: 2px; }
 
 .default-hero-section {
   height: 150px;
   background-color: #dce4ef; }
+
+#blog-content .page-title-module-custom {
+  padding-top: 45px;
+  padding-bottom: 0px; }
 
 /*** styling of content */
 article.blog-post .post-content .be-section-pad:first-child {
@@ -54,7 +61,8 @@ article.blog-post .post-content .be-section-pad:first-child {
 
 h2.page-title {
   text-align: center;
-  color: #0088c7; }
+  color: #0088c7;
+  margin-bottom: 0px; }
 
 .thumb-title-wrap {
   padding: 10px; }

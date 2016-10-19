@@ -29,6 +29,9 @@ Version: 1.2
 	}
 }
 /*  header stuff - here */
+#header {
+	height: 0px!important;
+}
 #header-controls-right {
 	.sliderbar-nav-controller-wrap {
 		.menu-controls {
@@ -39,6 +42,12 @@ Version: 1.2
 .default-hero-section {
 	height: 150px;
 	background-color: $hero-bkgd;
+}
+#blog-content { // dontainer of page title on archive
+	.page-title-module-custom {
+		padding-top: 45px;
+		padding-bottom: 0px;
+	}
 }
 /*** styling of content */
 
@@ -59,6 +68,7 @@ article.blog-post .post-content .be-section-pad:first-child { // above content o
 h2.page-title {
 	text-align: center;
 	color: $reach-blue;
+	margin-bottom: 0px;
 }
 .thumb-title-wrap { //Adds padding to client name borders in grid
 	padding: 10px;
