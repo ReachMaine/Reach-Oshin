@@ -30,7 +30,7 @@
 	.reach-phone-cols { // dont make social icons rows 100% at here
 		.textwidget {
 			.one-fourth {
-				width: 23%;
+				width: 20%;
 				float: left;
 			}
 		}
@@ -113,8 +113,21 @@
 	}
 
 }
-@media only screen and (max-width: 320px){
-
+@media only screen and (max-width: 320px){ // small mobile devices, dont but text against edge.
+	#page-content {
+		#author-box,
+		.post-navigation,
+		.single-post-share,
+		.be-section {
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+	}
+	#bottom-widgets,
+	#right-sidebar {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {

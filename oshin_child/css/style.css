@@ -80,7 +80,8 @@ h2.page-title {
 #author-box img.avatar,
 img.reach-team-member {
   border-radius: 50%;
-  border: 3px solid #c6daef; }
+  border: 3px solid #c6daef;
+  max-width: 98%; }
 
 #ms-container {
   column-count: 3;
@@ -134,7 +135,7 @@ h1.reach-logo {
 /***  tablet ***/
 @media only screen and (max-width: 768px) {
   .reach-phone-cols .textwidget .one-fourth {
-    width: 23%;
+    width: 20%;
     float: left; }
 
   #sb-slidebar-content #slidebar-menu .mobile-sub-menu-controller {
@@ -183,3 +184,15 @@ h1.reach-logo {
 
   div#reach-bottom-cta-wrap h1 {
     font-size: 27px; } }
+@media only screen and (max-width: 320px) {
+  #page-content #author-box,
+  #page-content .post-navigation,
+  #page-content .single-post-share,
+  #page-content .be-section {
+    padding-left: 5px;
+    padding-right: 5px; }
+
+  #bottom-widgets,
+  #right-sidebar {
+    padding-left: 5px;
+    padding-right: 5px; } }
