@@ -104,9 +104,10 @@ $post_format = get_post_format();
 		<div class="clearfix single-page-att">
 			<h6><?php echo __('Share This : ','be-themes'); ?></h6> <div class="share-links clearfix"><?php echo be_get_share_button(get_the_permalink(), get_the_title(), get_the_ID() ); ?></div>
 		</div>
-			<p>here.</p>
+		<?php  if (has_tag()) { ?>
 			<div class="clearfix single-post-tags single-page-att has-tags">
 				<h6><?php echo __('Tags : ','be-themes'); ?></h6> <?php echo get_the_tag_list('<div class="tagcloud">','','</div>'); ?>
 			</div>
+		<?php }  ?>
 	</div>
 <?php } ?>
