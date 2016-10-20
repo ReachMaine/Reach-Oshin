@@ -26,6 +26,7 @@
 /***  tablet ***/
 @media only screen and (max-width: 768px) {
 	$mobile-header-height: 80px;
+	$tablet-header-height: 95px;
 	.reach-phone-cols { // dont make social icons rows 100% at here
 		.textwidget {
 			.one-fourth {
@@ -59,10 +60,27 @@
 			background-color: $reach-pale-blue;
 		}
 		#hero-section {
-			top: $mobile-header-height; // make some space
+			//top: $mobile-header-height; // make some space
+			.forcefullwidth_wrapper_tp_banner { //homepage slideshow
+				padding-top: 80px;
+			}
+			.header-hero-custom-section {
+				padding-top: $mobile-header-height;
+				.hero-section-wrap.be-bg-cover {
+					max-height: 220px;
+				}
+				.hero-section-wrap:not(.be-bg-cover) {
+					height: 0px!important;
+				}
+			}
+		}
+		#hero-section.default-hero-section {
+				height: $tablet-header-height;
+				top: 0;
+				padding-top: 0px;
 		}
 		#content {
-			padding-top: $mobile-header-height; // and push content down
+			padding-top: 30px;
 			.be-text-inner {
 				width: 92%!important;
 			}

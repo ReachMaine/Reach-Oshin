@@ -148,10 +148,20 @@ h1.reach-logo {
     line-height: 80px; }
   #main-wrapper #main {
     background-color: #dce4ef; }
-  #main-wrapper #hero-section {
-    top: 80px; }
-  #main-wrapper #content {
+  #main-wrapper #hero-section .forcefullwidth_wrapper_tp_banner {
     padding-top: 80px; }
+  #main-wrapper #hero-section .header-hero-custom-section {
+    padding-top: 80px; }
+    #main-wrapper #hero-section .header-hero-custom-section .hero-section-wrap.be-bg-cover {
+      max-height: 220px; }
+    #main-wrapper #hero-section .header-hero-custom-section .hero-section-wrap:not(.be-bg-cover) {
+      height: 0px !important; }
+  #main-wrapper #hero-section.default-hero-section {
+    height: 95px;
+    top: 0;
+    padding-top: 0px; }
+  #main-wrapper #content {
+    padding-top: 30px; }
     #main-wrapper #content .be-text-inner {
       width: 92% !important; }
 
