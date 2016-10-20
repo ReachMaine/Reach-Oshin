@@ -2,6 +2,7 @@
 /*  Style 3 (masonary)
 * Mods
 * 19Oct16 zig - remove link on title (if single?)
+* 20Oct16 zig - dont print tags if there arent any.
 */
 $page_id = be_get_page_id();
 global $blog_attr, $more_text;
@@ -103,8 +104,9 @@ $post_format = get_post_format();
 		<div class="clearfix single-page-att">
 			<h6><?php echo __('Share This : ','be-themes'); ?></h6> <div class="share-links clearfix"><?php echo be_get_share_button(get_the_permalink(), get_the_title(), get_the_ID() ); ?></div>
 		</div>
-		<div class="clearfix single-post-tags single-page-att">
-			<h6><?php echo __('Tags : ','be-themes'); ?></h6> <?php echo get_the_tag_list('<div class="tagcloud">','','</div>'); ?>
-		</div>
+			<p>here.</p>
+			<div class="clearfix single-post-tags single-page-att has-tags">
+				<h6><?php echo __('Tags : ','be-themes'); ?></h6> <?php echo get_the_tag_list('<div class="tagcloud">','','</div>'); ?>
+			</div>
 	</div>
 <?php } ?>

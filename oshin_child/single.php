@@ -35,17 +35,14 @@ while ( have_posts() ) : the_post(); ?>
 							<div class="one-fifth column-block">
 								<?php
 									$user = get_the_author_meta('ID');
-									echo get_avatar($user,120);
+									//echo get_avatar($user,120);
+									echo get_avatar($user,150,'','',array('class' => array('reach-team-member')) );
 								?>
 							</div>
 							<div class="two-third column-block">
-								<h6 class="author-name uppercase">
+								<h5 class="author-name uppercase">
 									<?php echo esc_html( get_the_author_meta( 'display_name' ) );?>
-								</h6>
-
-								<?php if(get_the_author_meta('yim')){?>
-								<p class="author-title"><?php echo esc_html(get_the_author_meta('yim')); ?></p>
-								<?php }?>
+								</h5>
 
 								<p class="author-desc"><?php echo esc_html(get_the_author_meta('description'));?></p>
 
