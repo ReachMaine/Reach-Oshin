@@ -13,7 +13,7 @@ Version: 1.2
 
 
 /*** slidebar in oshine slidebar is above main content *** */
-.sb-slidebar { // the sidebar sliding bar for mobil menu
+.sb-slidebar { // the sidebar sliding bar for mobile menu
 	height: initial;
 	max-width: 280px;
 	.overlay-menu-close  {
@@ -25,6 +25,29 @@ Version: 1.2
 		#sb-slidebar-content {
 			vertical-align: top;
 			border: 1px solid #dddedf;
+			.reach-phone-cols {
+				.column-block {
+					margin-bottom: 20px;
+				}
+			}
+			.widget_search { // search
+				margin-bottom: 20px;
+				form.searchform {
+					//width: 85%;
+					padding-left: 8px;
+					input {
+						border-radius: 3px;
+						background-color: $reach-pale-blue;
+					}
+					i.search-icon {
+						right: 12px;
+					}
+					i.search-icon:before {
+						font-size: 28px;
+						color: $reach-blue;
+					}
+				}
+			}
 		}
 	}
 }

@@ -38,6 +38,20 @@ blockquote {
     .sb-slidebar .display-table #sb-slidebar-content {
       vertical-align: top;
       border: 1px solid #dddedf; }
+      .sb-slidebar .display-table #sb-slidebar-content .reach-phone-cols .column-block {
+        margin-bottom: 20px; }
+      .sb-slidebar .display-table #sb-slidebar-content .widget_search {
+        margin-bottom: 20px; }
+        .sb-slidebar .display-table #sb-slidebar-content .widget_search form.searchform {
+          padding-left: 8px; }
+          .sb-slidebar .display-table #sb-slidebar-content .widget_search form.searchform input {
+            border-radius: 3px;
+            background-color: #dce4ef; }
+          .sb-slidebar .display-table #sb-slidebar-content .widget_search form.searchform i.search-icon {
+            right: 12px; }
+          .sb-slidebar .display-table #sb-slidebar-content .widget_search form.searchform i.search-icon:before {
+            font-size: 28px;
+            color: #0088c7; }
 
 /*  header stuff - here */
 #header {
