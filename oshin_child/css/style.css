@@ -119,6 +119,21 @@ img.reach-team-member {
 .font-icon.small.circle {
   font-size: 22px; }
 
+#bottom-widgets {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  #bottom-widgets .widget {
+    margin-bottom: 10px; }
+    #bottom-widgets .widget .textwidget:not(:last-child) {
+      padding-bottom: 10px; }
+    #bottom-widgets .widget form.wpcf7-form .wpcf7-form-control-wrap.your-email {
+      padding-top: 6px;
+      padding-bottom: 10px; }
+      #bottom-widgets .widget form.wpcf7-form .wpcf7-form-control-wrap.your-email input.wpcf7-form-control {
+        border-radius: 3px;
+        font-size: 14px;
+        font-weight: normal; }
+
 h1.reach-logo {
   color: #0088c7; }
 
