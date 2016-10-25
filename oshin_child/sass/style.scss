@@ -25,13 +25,25 @@ Version: 1.2
 		#sb-slidebar-content {
 			vertical-align: top;
 			border: 1px solid #dddedf;
+			#logo-sidebar {
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+			.menu {
+				padding-top: 16px;
+				padding-bottom: 16px;
+				margin-bottom: 12px;
+				#slidebar-menu {
+					line-height: 42px;
+				}
+			}
 			.reach-phone-cols {
 				.column-block {
 					margin-bottom: 20px;
 				}
 			}
 			.widget_search { // search
-				margin-bottom: 20px;
+				margin-bottom: 0px;
 				form.searchform {
 					//width: 85%;
 					padding-left: 8px;
