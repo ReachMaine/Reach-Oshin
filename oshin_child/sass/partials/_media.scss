@@ -96,6 +96,20 @@
 		margin-left: -2px;
 	}
 
+	.team-member-order {
+		display: flex;
+		flex-wrap: wrap;
+		div:first-child {
+			order: 2;
+		}
+	}
+
+	img.reach-team-member, img[alt="reach-team-icon"] {
+		width: 50%;
+	}
+
+
+
 }
 @media only screen and (max-width: 480px){
 	#ms-container {
