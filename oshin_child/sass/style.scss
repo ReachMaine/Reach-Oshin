@@ -197,5 +197,18 @@ h1.reach-logo {
     padding-right: 3px;
 }
 
+form.mc4wp-form input[type="submit"] {
+	font-family: Raleway;
+	font-weight: 800;
+	font-size: 12px;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 3px;
+	margin: 0px 20px 10px 0px;
+	padding: 18px;
+
+}
+
 /* *** keep this at the end *** */
 @import "partials/media";
