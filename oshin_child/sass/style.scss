@@ -9,8 +9,7 @@ Version: 1.2
 @import url("../oshin/style.css");
 @import "partials/colors";
 @import "partials/typography";
-
-
+@import "partials/cf7";
 
 /*** slidebar in oshine slidebar is above main content *** */
 .sb-slidebar { // the sidebar sliding bar for mobile menu
@@ -177,6 +176,7 @@ img.reach-team-member {
 			padding-bottom: 10px;
 		}
 		form.wpcf7-form {
+
 			.wpcf7-form-control-wrap.your-email {
 				padding-top: 6px;
 				padding-bottom: 10px;

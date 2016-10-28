@@ -1,3 +1,4 @@
+@import url("../oshin/style.css");
 /*
 Theme Name: Reach
 Description: Oshin Child Theme for Reach Maine
@@ -5,7 +6,6 @@ Author: Reach Maine
 Template: oshin
 Version: 1.2
 */
-@import url("../oshin/style.css");
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* ----------- Typography ------------------------------- */
@@ -27,6 +27,16 @@ blockquote {
   line-height: 24px; }
 
 /* ----------- end typography ----------- */
+.wpcf7-form textarea {
+  height: 200px; }
+.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
+  padding: 18px;
+  border: 0px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 .sb-slidebar {
   height: initial;
