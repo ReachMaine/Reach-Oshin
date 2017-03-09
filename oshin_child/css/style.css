@@ -1,4 +1,3 @@
-@import url("../oshin/style.css");
 /*
 Theme Name: Reach
 Description: Oshin Child Theme for Reach Maine
@@ -6,6 +5,7 @@ Author: Reach Maine
 Template: oshin
 Version: 1.2
 */
+@import url("../oshin/style.css");
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* ----------- Typography ------------------------------- */
@@ -25,6 +25,9 @@ blockquote {
   margin-bottom: 0px;
   padding-left: 40px;
   line-height: 24px; }
+
+h2 sup {
+  font-size: 32px; }
 
 /* ----------- end typography ----------- */
 .wpcf7-form textarea {
