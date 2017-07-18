@@ -40,6 +40,11 @@ h2 sup {
   text-transform: uppercase;
   font-weight: bold; }
 
+.wpcf7 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+  color: #000;
+  background-color: #57f14e;
+  font-weight: bold; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 .sb-slidebar {
   height: initial;
