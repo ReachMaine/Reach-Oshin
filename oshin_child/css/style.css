@@ -65,8 +65,12 @@ h2 sup {
         margin-bottom: 12px; }
         .sb-slidebar .display-table #sb-slidebar-content .menu #slidebar-menu {
           line-height: 42px; }
-      .sb-slidebar .display-table #sb-slidebar-content .reach-phone-cols .column-block {
-        margin-bottom: 20px; }
+      .sb-slidebar .display-table #sb-slidebar-content .reach-phone-cols {
+        padding-left: 20px; }
+        .sb-slidebar .display-table #sb-slidebar-content .reach-phone-cols .column-block {
+          margin-bottom: 20px; }
+        .sb-slidebar .display-table #sb-slidebar-content .reach-phone-cols .tatsu-icon.small {
+          font-size: 1.7em; }
       .sb-slidebar .display-table #sb-slidebar-content .widget_search {
         margin-bottom: 0px; }
         .sb-slidebar .display-table #sb-slidebar-content .widget_search form.searchform {
@@ -148,6 +152,9 @@ img.reach-team-member {
     #ms-container .ms-item .article-details {
       padding: 1em; }
 
+.portfolio-container .thumb-bg {
+  background-color: rgba(0, 136, 199, 0.1) !important; }
+
 /* sidebar styleing */
 .widget_archive .screen-reader-text {
   display: none; }
@@ -174,6 +181,10 @@ img.reach-team-member {
         border-radius: 3px;
         font-size: 14px;
         font-weight: normal; }
+    #bottom-widgets .widget .tatsu-icon.small {
+      font-size: 1.2em; }
+  #bottom-widgets .widget_text.reach-phone-cols {
+    padding-left: 20px; }
 
 h1.reach-logo {
   color: #0088c7; }
