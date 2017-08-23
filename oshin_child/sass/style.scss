@@ -74,6 +74,7 @@ Version: 1.2
 	.sliderbar-nav-controller-wrap {
 		.menu-controls {
 			border-radius: 2px;
+			background-color: transparent;
 		}
 	}
 }
@@ -136,7 +137,9 @@ img.reach-team-member {
 	max-width: 98%; // need space for the border
 }
 
-
+.single-post-share {
+	float: none;
+}
 // masonary recent posts.  [reach_recent_posts]
 #ms-container {
 	column-count: 3;
@@ -158,6 +161,9 @@ img.reach-team-member {
 
 .portfolio-container .thumb-bg {
 		background-color: rgba(0,136,199,0.10)!important;
+}
+.portfolio-nav-wrap.oshine-module {
+	margin-bottom: 0px;
 }
 /* sidebar styleing */
 

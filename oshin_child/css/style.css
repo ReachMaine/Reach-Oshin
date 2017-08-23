@@ -89,7 +89,8 @@ h2 sup {
   height: 0px !important; }
 
 #header-controls-right .sliderbar-nav-controller-wrap .menu-controls {
-  border-radius: 2px; }
+  border-radius: 2px;
+  background-color: transparent; }
 
 .default-hero-section {
   height: 150px;
@@ -137,6 +138,9 @@ img.reach-team-member {
   border: 3px solid #c6daef;
   max-width: 98%; }
 
+.single-post-share {
+  float: none; }
+
 #ms-container {
   column-count: 3;
   -moz-column-count: 3;
@@ -154,6 +158,9 @@ img.reach-team-member {
 
 .portfolio-container .thumb-bg {
   background-color: rgba(0, 136, 199, 0.1) !important; }
+
+.portfolio-nav-wrap.oshine-module {
+  margin-bottom: 0px; }
 
 /* sidebar styleing */
 .widget_archive .screen-reader-text {
