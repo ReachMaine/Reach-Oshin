@@ -44,7 +44,7 @@ while ( have_posts() ) : the_post(); ?>
 									<?php echo esc_html( get_the_author_meta( 'display_name' ) );?>
 								</h5>
 
-								<p class="author-desc"><?php echo esc_html(get_the_author_meta('description'));?></p>
+								<p class="author-desc"><?php echo get_the_author_meta('description'); ?></p>
 
 								<?php if(get_the_author_meta('aim')){?>
 								<p class="author-twitter"><a href="http://twitter.com/<?php echo get_the_author_meta('aim');?>"><?php echo esc_html(get_the_author_meta('aim'));?></a></p>
