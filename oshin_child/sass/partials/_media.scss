@@ -12,6 +12,9 @@
 	h1.reach-logo:before,
 	h1 span.reach-logo:before {
 		content: url(images/reach-scale.png);
+		position: absolute;
+		margin-left: -40px;
+		margin-top: 5px;
 	}
 
 }
